@@ -1,5 +1,5 @@
-x1, y1 = map(int, input("Введите координаты слона").split())
-x2, y2 = map(int, input("Введите координаты хода слона").split())
+x1, y1 = map(int, input("Введите координаты ладьи").split())
+x2, y2 = map(int, input("Введите координаты хода ладьи").split())
 if (abs(x2-x1) == abs(y2-y1) or x1 == x2 or y1 == y2):
     print('yes')
 else:
